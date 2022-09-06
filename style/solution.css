@@ -1,0 +1,84 @@
+#industries {
+  /* border: 1px solid #000; */
+  width: 70%;
+  margin-left: 2%;
+  display: flex;
+}
+#industries> div > div {
+  /* border: 1px solid rgb(175, 21, 21); */
+  cursor: pointer;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  padding-right: 10px; 
+  padding-left: 10px;
+  border-radius: 10px;
+  /* padding: 10px; */
+  transition: 1s;
+  margin: auto;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#industries>div>div>div{
+    /* border: 1px solid #000; */
+    width: 200px;
+    height: 100px;
+    /* margin-left: 10px; */
+}
+#industries > div > div:hover {
+   
+  background-color: #ddd9d960;
+}
+#industries> div > div:hover #arrow {
+  visibility: visible;
+}
+#industries>div >div >img{
+  /* border: 1px solid #000; */
+    width: 30px;
+    object-fit: contain;
+    margin-right: 10px;
+    margin-top: 30px;
+    /* padding-top: 30px; */
+  }
+#business {
+  width: 30%;
+  background-color: #f9f9f9;
+  /* border: 1px solid #000; */
+}
+
+
+
+
+#business>ul li{
+    list-style: none;
+    font-size: 18px;
+    text-decoration: none;
+    width: 70%;
+  
+  }
+  #business>ul>li a{
+    text-decoration: none;
+    color: black;
+    /* margin-left: 10px; */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    /* border: 1px solid #000; */
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: .5s;
+  
+  }
+  #business >ul>li> a img{
+    margin-right: 10px;
+  }
+  #business>ul>li a:hover{
+    background-color: #fff;
+  }
+  #business>ul>li a:hover #arrow{
+    background-color: #fff;
+    visibility: visible;
+  }
+  

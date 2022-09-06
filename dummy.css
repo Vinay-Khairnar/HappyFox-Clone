@@ -3,7 +3,7 @@ body {
   background-color: #ded4d4;
 }
 #navbar {
-  height: 80px;
+  height: 70px;
   background-color: #ded4d4;
 }
 
@@ -78,10 +78,10 @@ li:hover {
 
 #parent {
   position: absolute;
-  height: 600px;
+  height: 570px;
   width: 100%;
   background-color: #ffffff;
-  top: 135px;
+  top: 120px;
   z-index: 2;
   display: none;
   transition: .5s;
@@ -92,7 +92,7 @@ li:hover {
   width: 100%;
   position: absolute;
   background-color: #666666b1;
-  top: 135px;
+  top: 120px;
   display: none;
   z-index: 1;
   transition: .5s;
@@ -102,17 +102,19 @@ li:hover {
   width: 20%;
   margin-left: 5%;
 }
+
+
 #overview > div{
   /* border: 1px solid #000; */
   cursor: pointer;
   display: flex;
   border-radius: 10px;
   transition: .5s;
-  align-items: center;
+  /* align-items: star; */
 }
 
 #overview > div:hover {
-  background-color: #ded4d45e;
+  background-color: #ddd9d938;
   
   visibility: visible;
 }
@@ -125,7 +127,26 @@ li:hover {
   
   width: 30px;
   object-fit: contain;
-  display: flex;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+h3{
+  color: #646f79;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: 21px;
+}
+h5{
+  color: #181c20;
+  /* border: 1px solid #000; */
+  font-weight: 300;
+  font-size: 17px;
+}
+p{
+ color: #646f79;
+ margin-top: -20px;
+ font-size: 15px;
+ 
 }
 #overview > div div{
   
@@ -158,7 +179,7 @@ h5{
 #features > div{
   
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   border-radius: 10px;
   transition: .5s;
   cursor: pointer;
@@ -167,7 +188,10 @@ h5{
   
   width: 30px;
   object-fit: contain;
-  display: flex;
+  /* display: flex; */
+  
+  margin-right: 10px;
+  margin-top: 35px;
 }
 #features > div div{
   
