@@ -9,6 +9,8 @@ async function fetchData(){
      //onclick show custom service
 document.getElementById("cus-service").addEventListener("click",()=>{
     showCusService();
+    document.body.classList.add('stopscroll');
+
 })
 function showCusService(){
     
@@ -23,6 +25,8 @@ function showCusService(){
 //onclick show it-support
 document.getElementById("it-support").addEventListener("click",()=>{
     showItSupport();
+    document.body.classList.add('stopscroll');
+
 })
 function showItSupport(){
     let optDropDownHtml = optDropDown(itSupport , data.itSupport)
@@ -37,6 +41,8 @@ function showItSupport(){
 //onclick show operations-support
 document.getElementById("ope-support").addEventListener("click",()=>{
     showOpeSupport();
+    document.body.classList.add('stopscroll');
+
 })
 function showOpeSupport(){
     let optDropDownHtml = optDropDown(opeSupport , data.Operation_Support)
@@ -92,24 +98,25 @@ const opeSupport ={
 
 }
 
-
-
+//appending navbar
 let navbarAppend = navbarcomponet();
 let navdiv = document.createElement("div");
 navdiv.innerHTML=navbarAppend;
 const oriNavabar = document.getElementById("navbar");
 oriNavabar.append(navdiv);
 
+//active effect
 var header = document.getElementById("navbar-options");
 var options = header.getElementsByClassName("options");
 
 for (var i = 0; i < options.length; i++) {
   options[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("active");
-    current[0].classList.remove("active","show");
-    this.classList.add("active","show")
+    current[0].classList.remove("active");
+    this.classList.add("active")
    
     
     
   });
 }
+
