@@ -1,0 +1,80 @@
+#resources {
+  width: 50%;
+  display: flex;
+}
+
+#resources > div {
+  width: 50%;
+}
+#resources > div > div {
+  cursor: pointer;
+  display: flex;
+  border-radius: 10px;
+  /* padding: 10px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80%;
+  transition: 0.5s;
+  margin: auto;
+
+  margin-top: 5px;
+}
+#resources > div > div > div {
+  width: 200px;
+  height: 100px;
+}
+#resources > div > div:hover {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #ddd9d960;
+}
+#resources > div > div:hover #arrow {
+  visibility: visible;
+}
+#resources > div > div > img {
+  /*  */
+  width: 30px;
+  object-fit: contain;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+#featur {
+  width: 50%;
+  background-color: #f9f9f9;
+}
+#featur > div {
+
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 1s;
+}
+#featur > div img {
+  width: 130px;
+  align-self: center;
+  align-items: center;
+}
+#featur > div > div {
+  margin-left: 30px;
+}
+
+#featur > div:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#featur p>span{
+  font-size: 17px;
+}
+#featur div:hover p>span{
+  color: red;
+  font-size: 17px;
+}
+#featur div:hover p>span #arrow{
+  visibility: visible;
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" class="hf-productnav__feature-icon" viewBox="0 0 15 15">
+                <g fill="none" fill-rule="evenodd">
+                    <path d="M0 0L15 0 15 15 0 15z"/>
+                    <path fill="#6C50BA" fill-rule="nonzero" d="M13.125 11.25H3.75c-.345 0-.625.28-.625.625s.28.625.625.625h9.375v1.25H3.75c-1.036 0-1.875-.84-1.875-1.875V2.5c0-.69.56-1.25 1.25-1.25h10v10zM10 5.625v-1.25H5v1.25h5z"/>
+                </g>
+            </svg>
