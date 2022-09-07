@@ -1,5 +1,5 @@
-import navbarcomponet from "./navbarcomponet.js"
-import optDropDown from "./options-drpdown.js"
+import navbarcomponet from "../component/navbarcomponet.js"
+import optDropDown from "../component/options-drpdown.js"
 var data;
 async function fetchData(){
     const res = await fetch("./cardInfoData.json");
@@ -100,3 +100,16 @@ navdiv.innerHTML=navbarAppend;
 const oriNavabar = document.getElementById("navbar");
 oriNavabar.append(navdiv);
 
+var header = document.getElementById("navbar-options");
+var options = header.getElementsByClassName("options");
+
+for (var i = 0; i < options.length; i++) {
+  options[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].classList.remove("active","show");
+    this.classList.add("active","show")
+   
+    
+    
+  });
+}

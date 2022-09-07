@@ -1,37 +1,26 @@
 import card from "./card.js";
 
-const optDropDown = (data , cardData) => {
-
-  console.log(cardData);
-
-  const print=()=>{
-    return card(
-      "SUPPORT",
-      "https://assets.www.happyfox.com/v2/images/site-nav/menu-logo-helpdesk.svg",
-      "Help Desk",
-      "All-in-one help desk ticketing system to provide better support for your customers"
-    )
+const optDropDown = (data, cardData) => {
+  let print="";
+  function appentCards(){
+  for(let i=0 ; i<cardData.length ; i++)
+   print += card(
+       cardData[i].firstTitle,
+       cardData[i].icon_link_src,
+       cardData[i].mainTitle,
+       cardData[i].card_desc
+     );
   }
+  appentCards();
 
-
-
-
-
-  return `<div id="nav-options-card-drp"  >
+  let datoToRetun = `<div id="nav-options-card-drp"  >
     <div id="nav-options-sidediv-1">
       <p>${data.side1title}</p>
       <p>${data.side1desc}</p>
     </div>
     <div id="nav-options-content">
-    ${print()}
-    ${print()}
-    ${print()}
-
-  
-    
+    ${print}
     </div>
-    <div class="vertical-part-line"></div>
-
     <div id="nav-options-sidediv-2">
       <span class="light-title">${data.side2title}</span>
       <img
@@ -47,5 +36,7 @@ const optDropDown = (data , cardData) => {
       <p>${data.side2desc}</p>
     </div>
   </div>`;
+
+  return datoToRetun;
 };
 export default optDropDown;

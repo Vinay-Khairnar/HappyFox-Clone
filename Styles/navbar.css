@@ -132,7 +132,9 @@ body {
 }
 #nav-options-sidediv-2 {
   width: 18%;
+  padding-left: 20px;
   background-color: #fff;
+  border-left: 1px solid rgba(168, 166, 166, 0.347);
 }
 #nav-options-sidediv-1,
 #nav-options-sidediv-2,
@@ -156,14 +158,7 @@ body {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-.vertical-part-line {
-    position: absolute;
-  width: 1px;
-  height: 350px;
-  background-color: #ececec;
-  top: 70px;
-  left: 69%;
-}
+
 .card-title {
   font-size: 14px;
   align-self: center;
@@ -179,9 +174,15 @@ body {
 }
 .nav-options-card{
     width: 38%;
+    padding: 10px 20px;
     margin-right: 75px;
     position: relative;
     margin-bottom: 20px;
+}
+.nav-options-card:hover{
+  background-color: #8d8d8d27;
+  border-radius: 20px;
+
 }
 .card-body {
   font-size: 13px;
