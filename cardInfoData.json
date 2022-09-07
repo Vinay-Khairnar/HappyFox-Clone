@@ -1,0 +1,88 @@
+{
+    "custom_service": [
+        {
+            "firstTitle": "support",
+            "icon_link-src": "//assets.www.happyfox.com/v2/images/site-nav/menu-logo-helpdesk.svg",
+            "mainTitle": "Help Desk",
+            "card_desc": "All-in-one help desk ticketing system to provide better support for your customers"
+        },
+        {
+            "firstTitle": "AUTOMATION TECHNOLOGY",
+            "icon_link-src": "//assets.www.happyfox.com/v2/images/site-nav/menu-logo-workflows.svg",
+            "mainTitle": "Workflows",
+            "card_desc": "Ensure speedy resolution of tickets with end-to-end process automation"
+        },
+        {
+            "firstTitle": "CHAT SOLUTION",
+            "icon_link-src": "//assets.www.happyfox.com/v2/images/site-nav/menu-logo-livechat.svg",
+            "mainTitle": "Live Chat",
+            "card_desc": "Chat with your customers instantly on mobile, desktop, and web"
+        },
+        {
+            "firstTitle": "REPORTING & ANALYTICS",
+            "icon_link-src": "//assets.www.happyfox.com/v2/images/site-nav/menu-logo-bi.svg",
+            "mainTitle": "Business Intelligence",
+            "card_desc": "Make data-driven decisions & better serve your customers with reports and analytics"
+        },
+        {
+            "firstTitle": "AI SOLUTION",
+            "icon_link-src": "//assets.www.happyfox.com/v2/images/site-nav/menu-logo-chatbot.svg",
+            "mainTitle": "Chatbot",
+            "card_desc": "Engage and reach your customers 24x7 with ready-to-go chatbots"
+        },
+        {
+            "firstTitle": "MOBILE SOLUTION",
+            "icon_link-src": "//assets.www.happyfox.com/v2/images/site-nav/menu-logo-inapp-chat.svg",
+            "mainTitle": "In-App Chat",
+            "card_desc": "Manage tickets, collaborate with ease, and track performance on the move"
+        }
+    ],
+
+    "itSupport": [
+        {
+            "firstTitle": "support",
+            "icon_link-src": "//assets.www.happyfox.com/v2/images/site-nav/menu-logo-helpdesk.svg",
+            "mainTitle": "Help Desk",
+            "card_desc": "Organize and intelligently deflect tickets with a unified IT Help Desk Software"
+        },
+        {
+            "firstTitle": "AUTOMATION TECHNOLOGY",
+            "icon_link-src": "//assets.www.happyfox.com/v2/images/site-nav/menu-logo-workflows.svg",
+            "mainTitle": "Workflows",
+            "card_desc": "Reduce costs and increase productivity with end-to-end process automation"
+        },
+        {
+            "firstTitle": "AI TECHNOLOGY",
+            "icon_link-src": "//assets.www.happyfox.com/v2/images/site-nav/menu-logo-assist-ai.svg",
+            "mainTitle": "Assist AI",
+            "card_desc": "Provide IT support directly from Slack and Microsoft Teams"
+        }
+    ],
+    
+    "Operation_Support": [
+        {
+            "firstTitle": "support",
+            "icon_link-src": "//assets.www.happyfox.com/v2/images/site-nav/menu-logo-helpdesk.svg",
+            "mainTitle": "Help Desk",
+            "card_desc": "Troubleshoot and organize operations tickets within one unified Help Desk"
+        },
+        {
+            "firstTitle": "AUTOMATION TECHNOLOGY",
+            "icon_link-src": "//assets.www.happyfox.com/v2/images/site-nav/menu-logo-workflows.svg",
+            "mainTitle": "Workflows",
+            "card_desc": "Boost productivity and ease collaboration by automating repetitive tasks"
+        },
+        {
+            "firstTitle": "AI TECHNOLOGY",
+            "icon_link-src": "//assets.www.happyfox.com/v2/images/site-nav/menu-logo-assist-ai.svg",
+            "mainTitle": "Assist AI",
+            "card_desc": "Provide IT support directly from Slack and Microsoft Teams"
+        },
+        {
+            "firstTitle": "REPORTING & ANALYTICS",
+            "icon_link-src": "//assets.www.happyfox.com/v2/images/site-nav/menu-logo-bi.svg",
+            "mainTitle": "Business Intelligence",
+            "card_desc": "Turn insight into advantage with cross-functional reports & dashboards"
+        }
+    ]
+}
