@@ -3,18 +3,6 @@
  height: 310px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 .a-comPare-p p{
     font-size: 16px;
     font-weight: 500;
@@ -270,17 +258,26 @@
 .acc-content>p{
 margin-top: -8.1px;
 }
+.bg-colour-a{
+    background: white;
+}
    
 /* _______________________________________________________________________________________________________________________________________________   */
 /* More about Happyfox    */
 .text-h2-more{
+    background: white;
+   /* padding-top: 50px; */
+   /* border: 2px solid red; */
+
     text-align: center;
+    
     font-size: 33px;
     font-family: 'Hind Siliguri', sans-serif;
     margin-bottom: 70px;
    font-weight: 500;
 }
 .a-HappyFox-container{
+    background: white;
     display: grid;
     margin: auto;
     text-align: center;
