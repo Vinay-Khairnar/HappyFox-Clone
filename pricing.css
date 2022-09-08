@@ -1,7 +1,20 @@
-
+body{
+    font-family:'Hind Siliguri', sans-serif; 
+}
 .a-plan img{
- height: 310px;
+ height: 320px;
+ width: 100%;
 
+}
+.a-center{
+    text-align: center;
+    margin-top: -240px;
+    font-size: 35px;
+    color: #000;
+font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    
+    margin-bottom: 140px;
 }
 .a-comPare-p p{
     font-size: 16px;
@@ -17,7 +30,20 @@
     display: block;
     /* border-top: 1px solid rgba(0,0,0,.2); */
 }
+.price-bottom-text{
+  margin-bottom: 80px;
 
+}
+.price-bottom-text div{
+    margin: 80px auto 40px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    max-width: 570px;
+    border-radius: 16px;
+    padding: 14px 0 12px;
+    background: #f9f9f9;
+}
 
 .tableContainer {
     overflow: auto;
@@ -327,4 +353,257 @@ margin-top: -8.1px;
     font-size: 16px;
 }
 
+/* /* _________________________________________________________________________________________________________________________________________ */
+.btn-design-a-one{
+width: 395px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+background-color: #fff;
+height: 90px;
+margin-left: 10px;
+margin-right: 10px;
+box-shadow: inset 0 -8px 10px 0 RGBA(0,0,0,.02);
+border: none;
+}
+.btn-design-a-one:hover{
+    cursor: pointer;
+}
+.btn-design-a-two:hover{
+    cursor: pointer;
+    background-color: #fafafa;
+}
+.btn-design-a-two{
+    width: 395px;
+    background-color: #ffeada;
+    height: 90px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: 10px;
+    box-shadow: inset 0 -8px 10px 0 RGBA(0,0,0,.02);
+    margin-right: 10px;
+    border: none;  
+}
+.btn-design-div{
+    display: flex;
+    justify-content: center;
+    margin-top: -85px;
+}
+.btn-design-div h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+/* _______________________________________________________________________________________________________________________________ */
 
+.tabs {
+   
+    margin: auto;
+    /* margin-bottom: 400px; */
+    /* width:500px; */
+    height:700px;
+    background:#fff;
+    padding:20px 30px;
+    border-radius:20px;
+    /* box-shadow:5px 10px 5px #ccc; */
+  }
+  .width-tab-a{
+    width: 1100px;
+    padding-top: 50px;
+    margin: auto;
+  }
+  .tabs .tab-header {
+    height:60px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    
+    display:flex;
+    align-items:center;
+  }
+  .tabs .tab-header > div {
+    width:25%;
+    text-align:center;
+    font-weight: 500;
+    cursor:pointer;
+    font-size:14px;
+    border-radius: 10px;
+    text-transform:uppercase;
+    outline:none;
+  }
+  .tabs .tab-header > div > i {
+    display:block;
+    margin-bottom:5px;
+  }
+  .tabs .tab-header > div:hover{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     border: 1px solid #c8c7c7;
+     background: #fff
+  }
+  .tabs .tab-header > div.active {
+   margin-left: 10px;
+   font-weight: bold;
+   margin-right: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+    border: 1px solid #c8c7c7;
+    background: #fff;
+  }
+  /* .tabs .tab-indicator {
+    position:relative;
+    width:25%;
+    
+    border-radius:25px;
+    transition:all 500ms ease-in-out;
+  } */
+  .tabs .tab-body {
+    position:relative;
+    height:calc(100% - 60px);
+    padding:10px 5px;
+  }
+  .tabs .tab-body > div {
+    position:absolute;
+    top:-200%;
+    opacity:0;
+    transform:scale(0.9);
+    /* transition:opacity 500ms ease-in-out 0ms, */
+      transform :500ms ease-in-out 0ms;
+  }
+  .tabs .tab-body > div.active {
+    top:0px;
+    opacity:1;
+    transform:scale(1);
+  }
+/* ____________________________________________________________________________________________
+ */
+
+.adjust-price-box{
+    display: flex;
+   
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.adjust-price-box>main:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 10px;
+  
+}
+ .adjust-price-box>main{
+    border-right:1px solid #eee; 
+    /* border-left: 1px solid #eee;  */
+    border-top: none;
+    border-bottom: none;
+    height: 550px;
+    /* width: 310px; */
+    /* border: 1px solid #28a745; */
+ }
+ .adjust-price-box main>h3{
+    font-size: 26px;
+    font-weight: 500;
+    margin: 10px 35px 10px;
+
+    text-align: left;
+ }
+ 
+ .pricing-dollar___symbol {
+    font-size: 24px;
+    margin-left: 30px;
+}
+.pricing-dollar___symbol, .pricing-dollar__amount {
+    font-weight: 500;
+}
+.pricing-dollar-inner.show, .pricing-savings-precentage-inner.show {
+    background: #fff;
+    margin-left: 0px;
+}
+.pricing-dollar-inner.show span, .pricing-savings-precentage-inner.show span {
+    visibility: visible;
+}
+.pricing-dollar-inner span {
+    visibility: hidden;
+}
+.pricing-dollar__amount {
+    font-size: 48px;
+}
+.inner-Line-a{
+    position: relative;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.pricing-feature-list {
+    display: flex;
+    padding: 20px 35px 85px;
+    /* margin-bottom: 152px; */
+}
+.pricing-feature-list li:first-child:before {
+    content: '+';
+    position: absolute;
+    left: -18px;
+}
+.pricing-feature-list li {
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+    font-size: 14px;
+    color: #555550;
+    margin-bottom: 15px;
+    list-style: circle;
+    margin-left: 8px;
+}
+
+.pricing-button-container {
+    display: flex;
+    margin-top: -70px;
+    padding: 0px 30px ;
+    flex-direction: column;
+    /* position: absolute; */
+   
+    bottom: 30px;
+}
+.pricing-button {
+    width: 200px;
+    
+    padding: 10px 20px;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    background: #f9f9f9;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.pricing-button:hover {
+    width: 200px;
+    
+    padding: 10px 20px;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    background: #ff6200;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.para-offer{
+    color: red;
+    margin-top: -35px;
+    margin-left: 30px;
+    /* margin-bottom: -50p; */
+}
+
+
+.pricing-savings-percentage-value {
+    color: #009928;
+    padding-left: 20px;
+    margin-top: -15px;
+}
