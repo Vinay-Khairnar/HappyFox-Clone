@@ -1,0 +1,3 @@
+// let custumerObj = {
+//     FullName:
+// }
