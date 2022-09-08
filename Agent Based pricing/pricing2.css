@@ -99,6 +99,52 @@ font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', s
     margin: auto;
 }
 
+.ticket-Z{
+    margin-left: 35px;
+
+    display: flex;
+    padding-left: 20px;
+    padding-top: 15px;
+   
+}
+.ticket-Z span>p{
+    /* width: 16%; */
+    font-size: 16px;
+    color: #797879;
+    font-weight: 300; 
+    margin-top: -2px;
+}
+.ticket-Z span{
+    width: 300px;
+}
+.ticket-Z>span a{
+    
+   
+   width: 16%;
+   font-size: 16px;
+   color: #797879;
+   font-weight: 300;  
+    border-bottom: 0.7px dotted #323643;
+    text-decoration: none;
+}
+.ticket-Z div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 150px;
+    margin-top: -18px;
+    margin-left: 40px;
+}
+.ticket-Z div>p{
+    font-size: 17px;
+    color: #797879;
+}
+.ticket-Z>span a:hover{
+    color: #007bff;
+    border-bottom: 0.5px dotted #007bff;
+}
+
+
+
 .ticket-P{
     margin-left: 35px;
 
@@ -128,12 +174,12 @@ font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', s
     text-decoration: none;
 }
 .ticket-P>span a:hover{
-    color: #ff6200;
-    border-bottom: 0.5px dotted #ff6200;
+    color: #007bff;
+    border-bottom: 0.5px dotted #007bff;
 }
 
 .solo-style-p:hover{
-    color: #ff6200;
+    color: #007bff;
     /* border-bottom: 0.5px dotted 20px #ff6200; */
 }
 .ticket-P div{
