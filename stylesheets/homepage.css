@@ -3,6 +3,7 @@
     padding: 0;
 }
 .banner {
+    width: 100%;
     background: url(https://assets.www.happyfox.com/v2/images/full_bg_v2.png) no-repeat;
     background-size: cover;
     background-position: top;
@@ -14,6 +15,7 @@
 /* 1st div */
 .container1 {
     width: 100%;
+    margin: auto;
     box-sizing: border-box;
     /* border: 2px solid red; */
 }
@@ -27,7 +29,7 @@
 }
 
 .col-div {
-    width: 65%;
+    width: 80%;
     margin: auto;
 }
 
@@ -117,7 +119,7 @@
 }
 
 .text-center {
-    width: max-content;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -221,7 +223,7 @@
 }
 .row {
     
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -335,7 +337,6 @@
 .hd-features {
     width: 100%;
     display: flex;
-    /* grid-template-columns: repeat(2,1fr); */
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -407,7 +408,9 @@
     margin: 10px 0 60px;
 
 }
-
+.row-list{
+    width: 100%;
+}
 .row-list ul {
     display: flex;
     width: 100%;
@@ -602,7 +605,7 @@
     
   }
   
-  button:hover {
+  .tab-button:hover {
     /* background-color: #d5e3ff; */
     border-bottom: 2px solid #ff6200;
   }
@@ -660,3 +663,270 @@
     color: #6d717e;
     padding-left: 0;
 }
+
+
+/* responsive */
+
+
+
+
+
+@media only screen and (max-width: 1500px){
+    .container{
+        max-width: 1500px;
+    }
+    .container1{
+        max-width: 1500px;
+    }
+    .text-center{
+        max-width: 1500px;
+    }
+    .row-list{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .container{
+        max-width: 1200px;
+    }
+    .container1{
+        max-width: 1200px;
+    }
+    .text-center{
+        max-width: 1200px;
+    }
+    .row-list ul li {
+        height: 150px;
+        width: 150px;
+    } 
+    .slider-screen >img{
+        width: 100%;
+    }
+    .feature-list{
+        width: 48%;
+        margin-right: 0;
+    }
+    .video-container {
+        
+        height: 624px;
+        
+    }
+    /* .feature-list {
+        background: rgba(215, 215, 215, 0.2);
+        padding: 30px 40px;
+        border-radius: 4px;
+        float: left;
+        color: white;
+        width: 40%;
+        transition: all .3s ease;
+        margin: 0 10px 20px 0;
+    } */
+}
+@media only screen and (max-width: 992px){
+    .container{
+        max-width: 992px;
+    }
+    .col-div {
+        width: 100%;
+        margin: auto;
+    }
+    .container1{
+        max-width: 992px;
+    }
+    .text-center{
+        max-width: 992px;
+    }
+    .row-list ul li {
+        height: 70px;
+        width: 70px;
+    }
+    .slider-screen >img{
+        width: 100%;
+    }
+    .video-container {
+        
+        height: 360px;
+        
+    }
+    .feature-list{
+        width: 48%;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 768px){
+    .container{
+        max-width: 768px;
+    }
+    .container1{
+        max-width: 768px;
+    }
+    .text-center{
+        max-width: 768px;
+    }
+    .col-div {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .video-container{
+        width: 100%;
+    }
+    .signup-banner{
+        display: block;
+        
+    }
+    .signup-banner > input{
+        border: 2px solid #f16631;
+        border-radius: 4px;
+        width: 100%;
+    }
+    .signup-banner > button{
+        border: 2px solid #f16631;
+        border-radius: 4px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .row-list{
+        width: 100%;
+      }
+    .row-list ul li {
+        height: 40px;
+        width: 40px;
+    }
+    .slider-screen >img{
+        width: 100%;
+    }
+    
+    .feature-list, .list-one{
+        width: 100%;
+        margin-right: 0;
+    }
+    .video-container {
+        
+        height: 200px;
+        
+    }
+    /* .hd-features{
+        display: block;
+    } */
+    .carousel-cell{
+        height: 600px;
+        width: 50%;
+        padding-right: 10px;
+    }
+    
+}
+@media only screen and (max-width: 576px){
+    .video-container{
+        height: 300px;
+        
+    }
+    .container {
+        max-width: 540px;
+    }
+    .container1 {
+        max-width: 540px;
+    }
+    .video-container{
+        width: 100%;
+    }
+    .text-center{
+        max-width: 540px;
+    }
+    .hometab-content {
+        display: block;
+        height: fit-content;
+      }
+      .col-div {
+        width: 100%;
+        margin: auto;
+    }
+      .home-heading-large {
+        font-size: 34px;
+        line-height: 1.167;
+    }
+      .content{
+        height: max-content;
+      }
+      
+      .slider-content{
+        width: 100%;
+      }
+      .row-list{
+        width: 170px;
+      }
+      .row-list ul li {
+        height: 40px;
+        width: 40px;
+        margin-right: 4%;
+    }
+    .helpdesk-features p, .roi-lists .list-text p {
+        line-height: 18px;
+        font-size: 12px;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+    .slider-screen {
+        width: 270px;
+        margin-right: 0;
+    }
+    .slider-screen img{
+        width: 300px;
+    }
+      /* common for all */
+      .feature-list, .list-one{
+        width: 100%;
+        margin-right: 0;
+        padding: 25px 20px;
+      }
+      .carousel-cell{
+        height: 800px;
+        width: 80%;
+        padding-right: 10px;
+    }
+    .feedback-text{
+        width: 240px;
+    }
+    .client-details{
+        display: block;
+    }
+     
+}
+@media only screen and (max-width: 360px){
+    .container {
+        max-width: 100%;
+    }
+    .container1 {
+        max-width: 100%;
+    }
+    .home-heading-large {
+        font-size: 34px;
+        line-height: 1.16;
+    }
+    .col-div {
+        width: 100%;
+        margin: auto;
+    }
+    .video-container{
+        height: 200px;
+        
+    }
+    .carousel-cell{
+        height: 900px;
+        width: 80%;
+        padding-right: 10px;
+    }
+    .feedback-text{
+        width: 200px;
+    }
+    .client-details{
+        display: block;
+    }
+    }
+
+
+
+
+
+
