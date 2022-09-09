@@ -1,5 +1,8 @@
+
+
+
 let fun3 = () => {
-    console.log("resourcess third");
+  
     document.getElementById("parent").style.height="450px"
     document.getElementById("parent").style.display = "flex";
     document.getElementById("parent2").style.display = "block";

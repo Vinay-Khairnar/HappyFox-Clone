@@ -1,5 +1,8 @@
+
+  
 let fun2 = () => {
-  console.log("solution second");
+ 
+  
   document.getElementById("parent").style.height="570px"
   document.getElementById("parent").style.display = "flex";
   document.getElementById("parent2").style.display = "block";

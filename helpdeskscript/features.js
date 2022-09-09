@@ -1,8 +1,20 @@
+
+
+  const status = document.getElementById("parent");
+ const  bcgstatus = document.getElementById("parent2");
+
 let fun = () => {
-  console.log("feature first");
-  document.getElementById("parent").style.height="570px"
-  document.getElementById("parent").style.display = "flex";
-  document.getElementById("parent2").style.display = "block";
+  document.getElementById("parent").style.height = "570px"
+  
+ if (status.style.display !== "none") {
+    status.style.display = "none";
+    bcgstatus.style.display = "none";
+  } else {
+    status.style.display = "flex";
+    bcgstatus.style.display = "block";
+  }
+  // document.getElementById("parent").style.display = "flex";
+  // document.getElementById("parent2").style.display = "block";
 };
 
 document.querySelector(".click1").addEventListener("click", fun);
