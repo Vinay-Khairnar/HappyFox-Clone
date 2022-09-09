@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./admin.css" />
+    <link rel="stylesheet" href="../admin2.css">
+  </head>
+  <body>
+    <nav>
+      <div id="logo"></div>
+      <div><h2>Tickets</h2></div>
+      <div><input type="text" placeholder="Search Tickets and Contacts" /></div>
+      <div>
+        <button style="color: #fff;" id="create">+New button</button>
+      </div>
+      <div>
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <select id="profile">
+          <option value="">Name</option>
+        </select>
+      </div>
+    </nav>
+
+
+    <div id="container">
+      <div id="sidebar">
+        <div>
+        <h2>QUEUES <img style="background-color: white;" height="20px" width="20px" src="https://cdn-icons-png.flaticon.com/128/3524/3524636.png" alt=""></h2>
+       <li>Pending Tickets</li>
+       <li>All tickets</li>
+       <li>Unresponded</li>
+       <li>Assigned to me</li>
+       <li>Immediate Response</li>
+      </div>
+
+        <div>
+        <h2>STATUSES </h2>
+       <li>New</li>
+       <li>Open</li>
+       <li>In Progress</li>
+       <li>On Hold</li>
+       <li>Solved</li>
+       <li>Closed</li>
+      </div>
+
+        
+
+      </div>
+      <div id="ticket-section">
+
+        <div id="sort-bar">
+          <h1>All tickets</h1> 
+        <select id="sort">
+          <option value="none">Sort by</option>
+          <option value="nto">Created - recent to oldest</option>
+          <option value="otn">Created - oldest to recent</option>
+          <option value="ltc">Priority - Low to Critical</option>
+          <option value="ctl">Priority - Critical to Low</option>
+        </select>
+        
+        <div id="page">
+          
+          <button> ⇚</button>
+          <span>1</span>
+          <button> ⇛</button>
+        </div>
+      </div>
+
+      <div id="all-tickets"></div>
+
+
+      </div>
+    </div>
+
+
+
+
+    
+    <div id="bcg"></div>
+
+      
+      <div id="ticket-form">
+        <div id="upper-bar">
+          <div>
+            <h1>New Ticket</h1>
+            <a>Cutomise this form </a>
+          </div>
+          <div>
+            <a>Show Contact Info</a>
+            <a>Browsw KB</a>
+          </div>
+        </div>
+        <div id="second-bar">
+          <p>Look up existing contact</p>
+          <div>
+            <label for="nem">Name or Email or Phone</label>
+            <input type="text" id="nem" />
+            <ul id="suggestion"> 
+            </ul>
+            
+          </div>
+          <div>
+            <label for="contact">Contact field</label>
+            <input type="text" id="contact" placeholder="select" />
+          </div>
+        </div>
+        <div id="third-bar">
+          <div>
+            <p>Contaict Detail</p>
+            <a href="">Clear</a>
+          </div>
+          <div>
+            <label for="name">Full Name*</label>
+            <input type="text" id="name" />
+          </div>
+          <div>
+            <label for="email">Email Address*</label>
+            <input type="email" id="email" />
+          </div>
+          <div>
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" placeholder="+91" />
+          </div>
+          <div>
+            <label for="level">Client Level</label>
+            <select id="level">
+              <option value=""></option>
+              <option value="Silver">Silver</option>
+              <option value="Gold">Gold</option>
+              <option value="Platinum">Platinum</option>
+            </select>
+          </div>
+          <div>
+            <label for="Building">Building</label>
+            <select id="Building">
+              <option value=""></option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div>
+            <label for="pcid">PC ID</label>
+            <input type="text" id="pcid" />
+          </div>
+          <div>
+            <label for="department">Department</label>
+            <select id="department">
+              <option value=""></option>
+              <option value="IT">IT</option>
+              <option value="Sales">Sales</option>
+              <option value="Finance">Finance</option>
+              <option value="HR">HR</option>
+            </select>
+          </div>
+        </div>
+  
+        <div id="fourth-bar">
+          <ul>
+            <li>
+              <input
+                type="text"
+                id="ticketTemplate"
+                placeholder="Change fields will be highlighted below"
+              />
+            </li>
+          </ul>
+        </div>
+  
+        <div id="fifth-bar">
+          <div>
+            <h3>Ticket Info</h3>
+            <a href="">Clear</a>
+          </div>
+          <div>
+            
+            <label for="category">Category*</label>
+            <select id="category">
+              <option value=""></option>
+              <option value="IT">IT</option>
+              <option value="Sales">Sales</option>
+              <option value="Finance">Finance</option>
+              <option value="HR">HR</option>
+            </select>
+          </div>
+          <div>
+            <label for="">Assign To *</label>
+            <input type="text" id="assignto">
+          </div>
+          <div>
+            <label for="priority">Priority*</label>
+            <select id="priority">
+              <option value=""></option>
+              <option value="High">High</option>
+              <option value="Medium">Medium</option>
+              <option value="Low">Low</option>
+            </select>
+          </div>
+          <div>
+            <label for="dueDate">Due Date</label>
+            <input type="text" id="dueDate" />
+          </div>
+          <div>
+            <label for="cc">Cc</label>
+            <input type="text" id="cc" />
+          </div>
+          <div>
+            <label for="bcc">Bcc</label>
+            <input type="text" id="bcc" />
+          </div>
+          <div>
+            <label for="subject">Subject *</label>
+            <input type="text" id="subject" />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" cols="40" rows="15"></textarea>
+          </div>
+        </div>
+        <div id="last-bar">
+          <button id="post">Create Ticket</button>
+          <button id="cancel">Cancel</button>
+          <button id="clear-form">Reset</button>
+        </div>
+      </div>
+
+
+  </body>
+</html>
+<script type="module" src="./script/admin.js" ></script>
+<script src="./script/ticketForm.js"></script>
+<script>
+//   let showdiv = () => {
+//   const count =1
+//   console.log(count);
+//   count++
+// }
+
+// document.getElementById("ticket-status").addEventListener("click" ,showdiv)
+</script>
+<script src="./script/sorting.js"></script>
+

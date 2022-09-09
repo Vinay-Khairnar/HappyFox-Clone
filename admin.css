@@ -1,0 +1,118 @@
+/* body{
+    margin: 0;
+} */
+nav{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    background-color: #333333;
+    justify-content: space-around;
+    color: white;
+}
+
+#container{
+    width: 99%;
+    border: 1px solid #000;
+    height: 660px;
+    display: flex;
+    /* margin: 0; */
+    margin-top: 1px;
+}
+#sidebar{
+    width: 19%;
+    background-color: #333333;
+    border: 1px solid #000;
+    height: 660px;
+    overflow-y: scroll;
+    color:#fff ;
+
+}
+#sidebar::-webkit-scrollbar{
+    width: 0;
+}
+#sidebar::-webkit-scrollbar-thumb{
+    background-color: #dacfcf;
+}
+#sidebar::-webkit-scrollbar-track{
+    background-color: #fff;
+}
+#ticket-section{
+    width: 79%;
+    height: 660px;
+    background-color: aliceblue;
+}
+
+
+/* #pop-up-container{
+    display: flex;
+    border: 1px solid #000;
+    background-color: aqua;
+    position: absolute;
+    top: 60px;
+    width: 70%;
+    margin-left: 28%;
+
+
+} */
+#ticket-form{
+    /* visibility: hidden; */
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    margin-left: 40%;
+    width: 65%;
+    height: 660px;
+    z-index: 2;
+    display: none;
+    overflow-y: scroll;
+}
+#ticket-form::-webkit-scrollbar{
+    width: 0;
+}
+#bcg{
+    width: 90%;
+    position: absolute;
+    top: 50px;
+    height: 670px;
+    /* border: 1px solid #; */
+    background-color: #5c5c5c7a;
+    z-index: 1;
+    display: none;
+}
+#sort-bar{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#dot{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(169, 14, 14);
+}
+
+
+#upper-div{
+    display: flex;
+    height: 90px;
+    align-items: center;
+    border: 1px solid #000;
+}
+#lower-div{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    border: 1px solid #000;
+}
+#lower-div >div>img{
+    height: 20px;
+    /* width: 100%; */
+    /* gap: 20px; */
+    border: 1px solid #000;
+    padding: 12px;
+}
+#ticket-status{
+    background-color: red;
+}
