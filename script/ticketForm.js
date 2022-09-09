@@ -15,12 +15,12 @@ document.getElementById("create").addEventListener("click", displaForm);
 
 
 
-let arr = [];
-let check = async (url) => {
-  let response = await fetch(url);
-  let result = await response.json();
-  
-}
+// let arr = [];
+// let check = async (url) => {
+//   let response = await fetch(url);
+//   let result = await response.json();
+//   arr = result;
+// }
 
 
 
@@ -51,24 +51,25 @@ let post = () => {
     bcc: document.getElementById("bcc").value,
     subject: document.getElementById("subject").value,
     message: document.getElementById("message").value,
-    assingto:document.getElementById("assignto").value
+    assingto: document.getElementById("assignto").value
+    
   };
   const ticketUrl = `https://happyfox-clone-database.herokuapp.com/AllTickets`;
 
-  if (arr.includes(contactDetail.FullName)) {
-    alert("user alredy exit")
-  }
-  else {
-    fetch(contactUrl, {
-      method: "POST",
-      body: JSON.stringify(contactDetail),
-      headers: {
-        "Content-type": "application/json",
-      },
-    });
-  }
-
-
+  // if (arr.includes(contactDetail.FullName)) {
+  //   alert("user alredy exit")
+  // }
+  // else {
+    
+    
+  // }
+  fetch(contactUrl, {
+    method: "POST",
+    body: JSON.stringify(contactDetail),
+    headers: {
+      "Content-type": "application/json",
+    },
+  });
   
   fetch(ticketUrl, {
     method: "POST",
@@ -112,7 +113,7 @@ function showSuggestion() {
   let getsuggestion = async () => {
     let response = await fetch(contactUrl);
     let result = await response.json();
-    console.log(result);
+    // console.log(result);
     addsuggetion(result);
   };
   getsuggestion();
@@ -134,7 +135,7 @@ let addsuggetion = (data) => {
 };
 
 let getId = (data) => {
-  console.log(data);
+  // console.log(data);
   document.getElementById("name").value = data.FullName;
   document.getElementById("email").value = data.Email;
   document.getElementById("phone").value = data.PhoneNu;

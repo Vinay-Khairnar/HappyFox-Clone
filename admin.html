@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
     <link rel="stylesheet" href="./admin.css" />
+    <link rel="stylesheet" href="../admin2.css">
   </head>
   <body>
     <nav>
@@ -13,7 +14,7 @@
       <div><h2>Tickets</h2></div>
       <div><input type="text" placeholder="Search Tickets and Contacts" /></div>
       <div>
-        <button id="create">+New button</button>
+        <button style="color: #fff;" id="create">+New button</button>
       </div>
       <div>
         <img src="" alt="" />
@@ -60,8 +61,8 @@
           <option value="none">Sort by</option>
           <option value="nto">Created - recent to oldest</option>
           <option value="otn">Created - oldest to recent</option>
-          <option value="otn">Priority - Low to Critical</option>
-          <option value="otn">Priority - Critical to Low</option>
+          <option value="ltc">Priority - Low to Critical</option>
+          <option value="ctl">Priority - Critical to Low</option>
         </select>
         
         <div id="page">
@@ -199,9 +200,9 @@
             <label for="priority">Priority*</label>
             <select id="priority">
               <option value=""></option>
-              <option value="IT">High</option>
-              <option value="Sales">Medium</option>
-              <option value="Finance">Low</option>
+              <option value="High">High</option>
+              <option value="Medium">Medium</option>
+              <option value="Low">Low</option>
             </select>
           </div>
           <div>
@@ -237,4 +238,14 @@
 </html>
 <script type="module" src="./script/admin.js" ></script>
 <script src="./script/ticketForm.js"></script>
+<script>
+//   let showdiv = () => {
+//   const count =1
+//   console.log(count);
+//   count++
+// }
+
+// document.getElementById("ticket-status").addEventListener("click" ,showdiv)
+</script>
+<script src="./script/sorting.js"></script>
 
