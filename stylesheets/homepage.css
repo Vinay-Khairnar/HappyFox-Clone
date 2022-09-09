@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .banner {
     background: url(https://assets.www.happyfox.com/v2/images/full_bg_v2.png) no-repeat;
     background-size: cover;
@@ -11,8 +15,9 @@
 .container1 {
     width: 100%;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
+
 
 .banner-wrap {
     width: 80%;
@@ -29,15 +34,21 @@
 .flex-parent {
     display: flex;
     flex-direction: column;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .home-heading-large {
     text-align: center;
+    font-size: 48px;
+    line-height: 1.167;
 }
 
 .home-heading-bottom {
     text-align: center;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .signup-banner_wrap {
@@ -47,6 +58,8 @@
 
 .signup-banner {
     display: flex;
+    margin: 40px 0 10px;
+    margin-bottom: 50px;
 
 }
 
@@ -89,17 +102,18 @@
     background-size: cover;
     box-shadow: 0 13px 25px 0 rgb(0 0 0 / 20%);
     border-radius: 10px;
-    position: relative;
+    /* position: relative; */
     z-index: 5;
     overflow: hidden;
     box-sizing: border-box;
     height: 624px;
+    /* display: flex; */
 }
 
 
 .award-wrap {
     padding-top: 70px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .text-center {
@@ -112,7 +126,14 @@
     width: 122px;
     height: 63px;
 }
-
+.h2_below{
+    font-size: 32px;
+    font-weight: 500;
+    margin: 40px 0 20px;
+}
+.h2_below_line{
+    text-align: center;
+}
 .btn-wrap {
     padding-top: 45px;
     padding-bottom: 45px;
@@ -125,6 +146,26 @@
     background-color: white;
 
 }
+.btn-wrap > button > a{
+    text-decoration: none;
+    color: black;
+}
+.lazyload-img-youtube{
+    /* padding-top: 100px; */
+    height: 50px;
+    width: 70px;
+    margin-left: 45%;
+    margin-top: 70px;
+
+}
+
+
+
+/* margin right */
+.feature-list:nth-child(2n+0), .list-one:nth-child(2n+0) {
+    margin-right: 0;
+}
+
 
 
 .brand-logos {
@@ -244,22 +285,25 @@
     display: flex;
     flex-wrap: wrap;
 }
+.roi-lists .list-one:hover{
+    background: rgba(6, 5, 5, 0.2);
+}
 
 .list-one {
     display: flex;
-    background: rgba(0, 0, 0, .2);
+    background: rgba(79, 78, 78, 0.2);
     padding: 50px 40px;
     border-radius: 4px;
     float: left;
-    color: #fff;
+    color: white;
     width: 48%;
-    /* transition: all .3s ease; */
-    margin: 0 40px 40px 0;
+    transition: all .3s ease;
+    margin: 0 20px 30px 0;
 }
+
 
 .list-icon>img {
     width: 30px;
-    /* aspect-ratio: auto 30 / 30; */
     height: 30px;
 }
 
@@ -279,7 +323,7 @@
     color: #6d717e;
     font-weight: 300;
     width: 100%;
-    margin-left: 15px;
+    margin-left: 5px;
     margin-bottom: 0px;
     font-family: sans-serif;
     line-height: 1.2;
@@ -296,16 +340,15 @@
     flex-wrap: wrap;
 }
 
-.feature-list,
-.list-one {
+.feature-list {
     background: rgba(215, 215, 215, 0.2);
     padding: 50px 40px;
     border-radius: 4px;
     float: left;
     color: white;
-    width: 46%;
+    width: 48%;
     transition: all .3s ease;
-    margin: 0 20px 20px 0;
+    margin: 0 20px 30px 0;
 }
 
 .feature-one {
@@ -378,16 +421,28 @@
     border-radius: 50%;
     /* background-color: #429ffd; */
     /* border: 1px solid red; */
-    box-shadow: 0 10px 60px 0 #e6e6e6;
+    box-shadow: 0 10px 60px 0 #a09f9f;
+}
+.row-list ul+ul {
+    margin-top: 30px;
+}
+.row-list ul li:hover{
+    /* background-color: blue; */
+    /* border: 1px solid #a09f9f; */
+    background-color: white;
+    box-shadow: 0 0px 30px 0 #e9e7e7;
 }
 
-.row-list ul li a {
-    width: 100%;
-    height: 100%;
+.row-list ul li img {
+    width: 50%;
+    height: 50%;
     float: left;
     margin-top: 25%;
-    margin-left: 10%;
+    margin-left: 24%;
 }
+/* .row-list ul li:hover{
+    box-shadow: 0;
+} */
 
 .apps-list {
     width: max-content;
