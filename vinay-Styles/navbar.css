@@ -1,0 +1,194 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: hero-new, sans-serif;
+}
+body {
+  color: #212529;
+  text-align: left;
+  line-height: 1.5;
+}
+.stopscroll{
+  overflow: hidden
+}
+#navbar-container {
+  display: flex;
+  padding: 0px 63px;
+  align-items: center;
+  border-collapse: collapse;
+
+}
+#navbar {
+  background-color: #f4f6f6;
+  
+}
+#navbar-options {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#navbar-options > div {
+  padding: 22px 15px 20px;
+  margin-right: 50px;
+  border-bottom: 2px solid transparent;
+  border-collapse: collapse;
+}
+#navbar-options > div > * {
+  display: inline-block;
+}
+
+#logo {
+  width: 14.4%;
+}
+#logo img {
+  vertical-align: middle;
+}
+#login {
+  width: 18%;
+  text-align: right;
+}
+#login>a {
+  padding: 15px;
+
+  text-decoration: none;
+  color: inherit;
+
+}
+#login>a:hover{
+  background-color: white;
+  border-radius: 20%;
+}
+.options::after {
+  content: "";
+  display: block;
+  width: 0%;
+  margin: auto;
+  height: 2px;
+  border-radius: 50px;
+  background-color: #ff8d00;
+  position: relative;
+  top: 21px;
+}
+.options:hover::after {
+  width: 100%;
+  transition: all 0.5s ease;
+}
+#navbar-options .active {
+  font-weight: 600;
+  font-size: 16px;
+  border-bottom: 2px solid #ff8d00;
+}
+#navbar-options .active::after {
+  transition: none;
+  visibility: hidden;
+}
+#navbar-options img {
+  content: url("https://assets.www.happyfox.com/v2/images/site-nav/menu-togle-arrow-gray.svg");
+}
+#navbar-options .active img {
+  transform: rotate(180deg);
+}
+#opt-hide {
+  visibility: hidden;
+}
+
+#nav-options-card-drp {
+  padding-right:  48px;
+  display: flex;
+  background-color: #f4f6f6;
+  background: linear-gradient(293deg, #fff, #fff),
+    linear-gradient(291deg, #f4f6f6, #f4f6f6);
+  background-position: left top, right top;
+  background-repeat: no-repeat, no-repeat;
+  border-bottom: 1px solid #ececec ;
+  box-shadow:  0rem 1em 2rem 0em rgba(0, 0, 0, 0.382);
+  position: absolute;
+ 
+}
+#nav-options-sidediv-1 {
+  width: 17.5%;
+  padding-left: 63px;
+  padding-right: 40px;
+  background-color: #f9f9f9;
+}
+#nav-options-sidediv-1 p:first-child {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#nav-options-sidediv-1 p:last-child{
+
+  font-size: 13px;
+      max-width: 175px;
+      color: #555;
+      line-height: 1.615;
+}
+#nav-options-content {
+  width: 57%;
+  background-color: #fff;
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+#nav-options-sidediv-2 {
+  width: 18%;
+  padding-left: 20px;
+  background-color: #fff;
+  border-left: 1px solid rgba(168, 166, 166, 0.347);
+}
+#nav-options-sidediv-1,
+#nav-options-sidediv-2,
+#nav-options-content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#sidediv-2-img-desc {
+  font-size: 13px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+#sidediv-2-img-desc ~ p {
+  font-size: 11px;
+}
+.light-title {
+  font-size: 11px;
+  color: #8d8d8d;
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.card-title {
+  font-size: 14px;
+  align-self: center;
+  margin-left: 10px;
+  color: #000;
+  font-weight: 500;
+  position: relative;
+}
+.card-icon-title {
+  display: flex;
+  align-content: center;
+  margin-bottom: 10px;
+}
+.nav-options-card{
+    width: 38%;
+    padding: 10px 20px;
+    margin-right: 75px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.nav-options-card:hover{
+  background-color: #8d8d8d27;
+  border-radius: 20px;
+
+}
+.card-body {
+  font-size: 13px;
+  color: #555;
+  max-width: 350px;
+}
