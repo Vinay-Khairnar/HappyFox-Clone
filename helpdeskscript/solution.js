@@ -3,7 +3,6 @@
 let fun2 = () => {
  
   
-  document.getElementById("parent").style.height="570px"
   document.getElementById("parent").style.display = "flex";
   document.getElementById("parent2").style.display = "block";
 };
@@ -31,29 +30,29 @@ let Solution = () => {
   let id1 = document.createElement("div");
   id1.innerHTML = `<img height="15px" width="15px" src="./assets/asset 11.svg" alt="" />
       <div>
-        <h5>Education <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-      <p>Streamline your IT and Operation Support</p>
+        <h5 id="h5">Education <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+      <p id="p">Streamline your IT and Operation Support</p>
         </div>
       `;
   let id2 = document.createElement("div");
   id2.innerHTML = `<img height="15px" width="15px" src="./assets/asset 12.svg" alt="" />
       <div>
-        <h5>IT Services <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-      <p>Provide the best IT support</p>
+        <h5 id="h5">IT Services <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+      <p id="p">Provide the best IT support</p>
         </div>
       `;
   let id3 = document.createElement("div");
   id3.innerHTML = `<img height="15px" width="15px" src="./assets/asset 13.svg" alt="" />
       <div>
-        <h5>Non Profit Organisation <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-      <p>Affordable help desk for efficient operation</p>
+        <h5 id="h5">Non Profit Organisation <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+      <p id="p">Affordable help desk for efficient operation</p>
         </div>
       `;
   let id4 = document.createElement("div");
   id4.innerHTML = `<img height="15px" width="15px" src="./assets/asset 14.svg" alt="" />
       <div>
-        <h5>Airlines <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-      <p>Elevate your customer services experice</p>
+        <h5 id="h5">Airlines <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+      <p id="p">Elevate your customer services experice</p>
         </div>
       `;
 
@@ -63,29 +62,29 @@ let Solution = () => {
   let idv1 = document.createElement("div");
   idv1.innerHTML = `<img height="15px" width="15px" src="./assets/asset 15.svg" alt="" />
 <div>
-  <h5>Retail <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-<p>Delight your customer with speedy support</p>
+  <h5 id="h5">Retail <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+<p id="p">Delight your customer with speedy support</p>
   </div>
 `;
   let idv2 = document.createElement("div");
   idv2.innerHTML = `<img height="15px" width="15px" src="./assets/asset 16.svg" alt="" />
 <div>
-  <h5>Telecom <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-<p>Meet your SLAs and improve Retention</p>
+  <h5 id="h5">Telecom <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+<p id="p">Meet your SLAs and improve Retention</p>
   </div>
 `;
   let idv3 = document.createElement("div");
   idv3.innerHTML = `<img height="15px" width="15px" src="./assets/asset 17.svg" alt="" />
 <div>
-  <h5>Healthcare <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-<p>Your all-in-one support stack</p>
+  <h5 id="h5">Healthcare <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+<p id="p">Your all-in-one support stack</p>
   </div>
 `;
   let idv4 = document.createElement("div");
   idv4.innerHTML = `<img height="15px" width="15px" src="./assets/asset 18.svg" alt="" />
 <div>
-  <h5>Real Estate <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-<p>Serve your agent and buyers better</p>
+  <h5 id="h5">Real Estate <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+<p id="p">Serve your agent and buyers better</p>
   </div>
 `;
 
@@ -96,15 +95,15 @@ let Solution = () => {
   let idd3 = document.createElement("div");
   idd3.innerHTML = `<img height="15px" width="15px" src="./assets/asset 19.svg" alt="" />
 <div>
-  <h5>Travel <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-<p>Delever Multi-Channel Customer Service </p>
+  <h5 id="h5">Travel <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+<p id="p">Delever Multi-Channel Customer Service </p>
   </div>
 `;
   let idd4 = document.createElement("div");
   idd4.innerHTML = `<img height="15px" width="15px" src="./assets/asset 20.svg" alt="" />
 <div>
-  <h5>Government <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-<p>Robust support solution for public sector</p>
+  <h5 id="h5">Government <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+<p id="p">Robust support solution for public sector</p>
   </div>
 `;
 

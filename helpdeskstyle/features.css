@@ -31,29 +31,32 @@
   margin-right: 10px;
   margin-top: 30px;
 }
- h3 {
+ #h3 {
   color: #646f79;
   font-size: 15px;
   letter-spacing: normal;
   line-height: 21px;
   margin-left: 50px;
   font-family: 'Roboto', sans-serif;
+  /* border: 1px solid #000; */
 }
-h5 {
+#h5 {
   color: #181c20;
   /* border: 1px solid #000; */
   font-weight: 300;
   font-size: 17px;
 }
-p {
+#p {
   color: #646f79;
-  margin-top: -20px;
   font-size: 15px;
+}
+#overview>div{
+  padding: 20px 30px;
 }
 #overview > div div {
   width: 200px;
 }
-h5 {
+#h5 {
   display: flex;
   align-items: center;
 }
@@ -71,6 +74,13 @@ h5 {
   /* border: 1px solid #000; */
   /* margin-left: 50px; */
   padding-left: 50px;
+  
+  color: #646f79;
+  font-size: 15px;
+  letter-spacing: normal;
+  line-height: 21px;
+  margin-left: 50px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #features > div {
@@ -82,8 +92,6 @@ h5 {
 #features > div > div {
   /* border: 1px solid #000; */
   width: 50%;
-  margin: auto;
-  height: 510px;
 }
 
 #features > div > div > div > img {
@@ -142,10 +150,14 @@ h5 {
 #integration {
   background-color: #f9f9f9;
   width: 26%;
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   /* height: 200px; */
 }
 
+#integration ul{
+  margin-left: 40px;
+}
 #integration > ul li {
   /* border: 1px solid #000; */
   list-style: none;
@@ -197,4 +209,10 @@ h5 {
   /* border: 1px solid #000; */
   padding-left: 10px;
   visibility: visible;
+}
+#tempdiv>div{
+  height: 100px;
+}
+#tempdiv{
+  margin-top: 20px;
 }

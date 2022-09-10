@@ -2,7 +2,7 @@ const navbarcomponet = () => {
   return `
     <div id="navbar-container">
     <div id="logo">
-    <a href="index.html"><!--  put here index.html -->
+    <a href="../index.html"><!--  put here index.html -->
     <img
     src="https://assets.www.happyfox.com/v2/images/site-nav/topbar-logo-black.svg"
     alt="happyfox_logo"
@@ -28,7 +28,7 @@ const navbarcomponet = () => {
     ><img
     /></span>
     </div>
-    <div id="opt-hide" class="options active"></div>
+    <div id="opt-hide" class="options active_nav"></div>
     </div>
 
 

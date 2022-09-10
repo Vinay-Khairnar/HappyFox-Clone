@@ -9,6 +9,7 @@
     background-position: top;
     height: 840px;
     border-radius: 0;
+    padding-top: 30px;
 }
 
 
@@ -619,7 +620,7 @@
     background-color: white;
   }
   
-  p {
+  .slider-content > p  {
     text-align: left;
     padding: 10px;
   }

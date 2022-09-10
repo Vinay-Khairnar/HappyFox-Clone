@@ -1,0 +1,256 @@
+#parentdiv{
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+#section{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-left: 35px;
+}
+#firstchilddiv{
+    width: 40%;
+    padding: 10% 5% 10% 0%;
+}
+h1{
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -1.2px;
+    color: #323643;
+    margin: 0;
+}
+#acname{
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 2.14;
+    letter-spacing: normal;
+    color: #797879;
+    margin: 30px 0 5px;
+}
+#account-login{
+    display: flex;
+}
+#account-login>input{
+    width: 440px;
+    border-radius: 5px 0px 0px 5px;
+
+    color: #000;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid #CCC;
+    padding: 8px 14px;
+    margin: 0px;
+}
+#account-login>strong{
+    font-weight: 400;
+    background-color: #e2e2e2;
+    border-radius: 0px 5px 5px 0px;
+    padding: 2px 10px 7px 8px;
+    font-size: 16px;
+    color: #666;
+    display: inline-block;
+}
+#btn{
+    max-width: 567px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+#login-btn{
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFF;
+    display: block;
+    background-color: #f16631;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 45px 9px 45px;
+    cursor: pointer;
+    width: auto;
+}
+#js-accountrecovery{
+    font-size: 13px;
+    padding: 0px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 8px 0;
+}
+#js-accountrecovery>span{
+    text-decoration: none;
+    color: #f16631;
+}
+#hesection {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #b2b2b2;
+    max-width: 567px;
+    margin-bottom: 50px;
+}
+.hfc-inner{
+    display: flex;
+}
+
+.hfc-txt-inner{
+    display: flex;
+    max-width: 567px;
+    
+}
+
+.hfc-txt {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.8px;
+    display: inline-block;
+    padding-left: 15px;
+}
+.hfc-txt-inner{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+#loginbtn{
+    margin-top: 10px;
+}
+.hfc-btn {
+    font-weight: 500;
+    font-size: 18px;
+    display: inline-block;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 21px;
+    cursor: pointer;
+    text-align: center;
+    background: #f1eeee;
+    text-decoration: none;
+}
+.hfc-btn:visited {
+    color: #323643;
+}
+
+
+
+
+#secondchilddiv{
+    background: #4f66c8;
+    position: relative;
+    padding-left: 5%;
+    width: 50%;
+}
+#secondchilddiv>div>img{
+    margin-top: 20px;
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: -112px;
+}
+#chtboxdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#chtboxdiv>img{
+    vertical-align: middle;
+    border-style: none;
+}
+.new{
+    border-radius: 4px;
+    background-color: #ff8d00;
+    font-size: 10px;
+    padding: 6px 8px;
+    color: #fff;
+    margin: 0;
+}
+.anker{
+    color: #f16631;
+    padding-right: 35px;
+    display: inline-block;
+    margin-top: 20px;
+    position: relative;
+    transition: all 0.2s ease-in;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+#innerimg{
+    opacity: 0.9;
+    border-radius: 6px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 15%;
+    max-width: 380px;
+    width: 100%;
+}
+#innerimg>h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.8px;
+    color: #070707;
+}
+
+hr{
+   color: #636668;
+}
+
+footer{
+    background-color: #181c20 ;
+    width: 100%;
+}#footer{
+    margin: 50px;
+}
+#uperfooter{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 80%;
+    margin-left: 150px;
+}
+#uperfooter>div>a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#lowerfooter{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#row{
+    display: flex;
+    justify-content: space-around;
+    color:#636668;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    color:#636668;
+}
+li{
+    padding-right: 50px;
+    text-decoration: none;
+}
+.col-md-5-bottom-links ul li a{
+    text-decoration: none;
+    color:#636668;
+}
+.col-md-5-copy-right-text{
+    display: flex;
+    justify-content: flex-end;
+    color:#636668;
+}
+.col-md-5-copy-right-text>ul>li>a{
+    text-decoration: none;
+}
+form{
+    display: flex;
+}

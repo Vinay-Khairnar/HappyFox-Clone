@@ -40,7 +40,7 @@ let Resources = () => {
     subbox1.innerHTML=`<img src="https://assets.www.happyfox.com/v2/images/site-nav/3-hd.svg" alt="" />`
     let subbox2 = document.createElement("div")
     subbox2.innerHTML = `<h4>WEBINAR</h4>
-    <p>Managing your Customer Support using Happyfox Helpd...</p> 
+    <p id="p">Managing your Customer Support using Happyfox Helpd...</p> 
     <p style="margin-top:-10px"><span>Watch now</span><img id="arrow" height="12px" width="12px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /> </a></p>`
     box.append(subbox1,subbox2)
 
@@ -50,7 +50,7 @@ let Resources = () => {
     sub2box1.innerHTML=`<img src="https://assets.www.happyfox.com/v2/images/site-nav/1-hd.jpg" alt="" />`
     let sub2box2 = document.createElement("div")
     sub2box2.innerHTML = `<h4>GUIDE</h4>
-    <p>Helpdesk : A Complete Guide (2022)</p> 
+    <p id="p">Helpdesk : A Complete Guide (2022)</p> 
     <p style="margin-top:-10px"><span>Read more</span><img id="arrow" height="12px" width="12px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /> </a></p>`
     box2.append(sub2box1,sub2box2)
     
@@ -59,7 +59,7 @@ let Resources = () => {
     sub3box1.innerHTML=`<img src="https://assets.www.happyfox.com/v2/images/site-nav/2-hd.svg" alt="" />`
     let sub3box2 = document.createElement("div")
     sub3box2.innerHTML = `<h4>INFOGRAPHICS</h4>
-    <p>An introduction to Omnichannel Help Desk Software</p> 
+    <p id="p">An introduction to Omnichannel Help Desk Software</p> 
     <p style="margin-top:-10px"><span>Download now </span><img id="arrow" height="12px" width="12px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /> </a></p>`
     box3.append(sub3box1,sub3box2)
     
@@ -70,22 +70,22 @@ let Resources = () => {
     let id1 = document.createElement("div");
   id1.innerHTML = `<img height="15px" width="15px" src="./assets/asset 21.svg" alt="" />
       <div>
-        <h5>E-book & Guides<img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-      <p>Resources to reinvent your coustomer service experice</p>
+        <h5 id="h5">E-book & Guides<img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+      <p id="p">Resources to reinvent your coustomer service experice</p>
         </div>
       `;
   let id2 = document.createElement("div");
   id2.innerHTML = `<img height="15px" width="15px" src="./assets/asset 23.svg" alt="" />
       <div>
-        <h5>Customer Strories <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-      <p>Thousand of companies call Happyfox a great friend</p>
+        <h5 id="h5">Customer Strories <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+      <p id="p">Thousand of companies call Happyfox a great friend</p>
         </div>
       `;
   let id3 = document.createElement("div");
   id3.innerHTML = `<img height="15px" width="15px" src="./assets/asset 25.svg" alt="" />
       <div>
-        <h5>Support Center<img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-      <p>What can we help you with? Talk to our customer support</p>
+        <h5 id="h5">Support Center<img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+      <p id="p">What can we help you with? Talk to our customer support</p>
         </div>
       `;
     
@@ -95,22 +95,22 @@ let Resources = () => {
     let idv1 = document.createElement("div");
   idv1.innerHTML = `<img height="15px" width="15px" src="./assets/asset 22.svg" alt="" />
 <div>
-  <h5>Webinar <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-<p>Learn how to make the most of happyfox products</p>
+  <h5 id="h5">Webinar <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+<p id="p">Learn how to make the most of happyfox products</p>
   </div>
 `;
   let idv2 = document.createElement("div");
   idv2.innerHTML = `<img height="15px" width="15px" src="./assets/asset 24.svg" alt="" />
 <div>
-  <h5>Videos <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-<p>Checkout our library of education video</p>
+  <h5 id="h5">Videos <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+<p id="p">Checkout our library of education video</p>
   </div>
 `;
   let idv3 = document.createElement("div");
   idv3.innerHTML = `<img height="15px" width="15px" src="./assets/asset 26.svg" alt="" />
 <div>
-  <h5>Blog <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-<p>Learn tips, stories, and new techniques.</p>
+  <h5 id="h5">Blog <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+<p id="p">Learn tips, stories, and new techniques.</p>
   </div>
 `;
     

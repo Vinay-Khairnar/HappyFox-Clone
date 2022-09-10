@@ -29,7 +29,6 @@ padding-bottom: 1px;
 #industries>div>div>div{
     /* border: 1px solid #000; */
     width: 200px;
-    height: 100px;
     /* margin-left: 10px; */
 }
 #industries > div > div:hover {
@@ -58,7 +57,9 @@ padding-bottom: 1px;
   /* border: 1px solid #000; */
 }
 
-
+#business ul{
+  padding-left: 40px;
+}
 
 
 #business>ul li{
@@ -100,4 +101,14 @@ padding-bottom: 1px;
   #business h3{
     /* border: 1px solid #000; */
     margin-top: 30px;
+  }
+
+  #business h3{
+    color: #646f79;
+    font-size: 15px;
+    letter-spacing: normal;
+    line-height: 21px;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+      /* border: 1px solid #000; */
   }

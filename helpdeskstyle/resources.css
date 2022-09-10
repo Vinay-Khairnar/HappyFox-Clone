@@ -21,7 +21,6 @@
 }
 #resources > div > div > div {
   width: 200px;
-  height: 100px;
 }
 #resources > div > div:hover {
   padding-left: 20px;

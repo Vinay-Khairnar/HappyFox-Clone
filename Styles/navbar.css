@@ -39,10 +39,10 @@ body {
   display: inline-block;
 }
 
-#logo {
+#navbar #logo {
   width: 14.4%;
 }
-#logo img {
+#navbar #logo img {
   vertical-align: middle;
 }
 #login {
@@ -75,19 +75,19 @@ body {
   width: 100%;
   transition: all 0.5s ease;
 }
-#navbar-options .active {
+#navbar-options .active_nav {
   font-weight: 600;
   font-size: 16px;
   border-bottom: 2px solid #ff8d00;
 }
-#navbar-options .active::after {
+#navbar-options .active_nav::after {
   transition: none;
   visibility: hidden;
 }
 #navbar-options img {
   content: url("https://assets.www.happyfox.com/v2/images/site-nav/menu-togle-arrow-gray.svg");
 }
-#navbar-options .active img {
+#navbar-options .active_nav img {
   transform: rotate(180deg);
 }
 #opt-hide {
@@ -105,6 +105,7 @@ body {
   border-bottom: 1px solid #ececec ;
   box-shadow:  0rem 1em 2rem 0em rgba(0, 0, 0, 0.382);
   position: absolute;
+  z-index: 100;
  
 }
 #nav-options-sidediv-1 {
@@ -191,4 +192,17 @@ body {
   font-size: 13px;
   color: #555;
   max-width: 350px;
+}
+
+@media screen and (max-width:1199px){
+  #navbar-options{
+    display: none;
+  }
+  #navbar-container{
+    justify-content: space-between;
+    height: 70px;
+  }
+  #navbar-container>div{
+    width: 50%;
+  }
 }

@@ -4,7 +4,6 @@
  const  bcgstatus = document.getElementById("parent2");
 
 let fun = () => {
-  document.getElementById("parent").style.height = "570px"
   
  if (status.style.display !== "none") {
     status.style.display = "none";
@@ -28,23 +27,23 @@ let Features = () => {
   features.setAttribute("id", "features");
   let integration = document.createElement("div");
   integration.setAttribute("id", "integration");
-  overview.innerHTML = `<h3>OVERVIEW</h3>`;
+  overview.innerHTML = `<h3 id='h3'>OVERVIEW</h3>`;
 
 
 
   let odiv1 = document.createElement("div");
   odiv1.innerHTML = `<img height="15px" width="15px" src="./assets/asset 2.svg" alt="" />
     <div>
-      <h5>Help Desk Tour  <img id="arrow"  height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-    <p>Provide Faster and better Support for Your Custumer</p>
+      <h5 id="h5">Help Desk Tour  <img id="arrow"  height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+    <p id="p">Provide Faster and better Support for Your Custumer</p>
       </div>
     `;
 
   let odiv2 = document.createElement("div");
   odiv2.innerHTML = `<img height="15px" width="15px" src="./assets/asset 3.svg" alt="" />
     <div>
-      <h5>Get a Demo <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-    <p>See Happy fox Helpdesk in action</p>
+      <h5 id="h5">Get a Demo <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+    <p id="p">See Happy fox Helpdesk in action</p>
       </div>
     `;
 
@@ -66,29 +65,29 @@ let Features = () => {
   let fdiv1 = document.createElement("div");
   fdiv1.innerHTML = `<img height="15px" width="15px" src="./assets/asset 4.svg" alt="" />
     <div>
-      <h5>Ticketing System <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-    <p>Provide Faster and better Support for Your Custumer</p>
+      <h5 id="h5">Ticketing System <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+    <p id="p">Provide Faster and better Support for Your Custumer</p>
       </div>
     `;
   let fdiv2 = document.createElement("div");
   fdiv2.innerHTML = `<img height="15px" width="15px" src="./assets/asset 6.svg" alt="" />
     <div>
-      <h5>Connect Actions <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-    <p>Provide Faster and better Support for Your Custumer</p>
+      <h5 id="h5">Connect Actions <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+    <p id="p">Provide Faster and better Support for Your Custumer</p>
       </div>
     `;
   let fdiv3 = document.createElement("div");
   fdiv3.innerHTML = `<img height="15px" width="15px" src="./assets/asset 8.svg" alt="" />
     <div>
-      <h5>Task Management <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-    <p>Provide Faster and better Support for Your Custumer</p>
+      <h5 id="h5">Task Management <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+    <p id="p">Provide Faster and better Support for Your Custumer</p>
       </div>
     `;
   let fdiv4 = document.createElement("div");
   fdiv4.innerHTML = `<img height="15px" width="15px" src="./assets/asset 10.svg" alt="" />
     <div>
-      <h5>Help Desk Reports <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-    <p>Provide Faster and better Support for Your Custumer</p>
+      <h5 id="h5">Help Desk Reports <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+    <p id="p">Provide Faster and better Support for Your Custumer</p>
       </div>
     `;
   
@@ -99,22 +98,22 @@ let Features = () => {
   let fdiv5 = document.createElement("div");
   fdiv5.innerHTML = `<img height="15px" width="15px" src="./assets/asset 5.svg" alt="" />
     <div>
-      <h5>Knowledge Base <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-    <p>Provide Faster and better Support for Your Custumer</p>
+      <h5 id="h5">Knowledge Base <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+    <p id="p">Provide Faster and better Support for Your Custumer</p>
       </div>
     `;
   let fdiv6 = document.createElement("div");
   fdiv6.innerHTML = `<img height="15px" width="15px" src="./assets/asset 7.svg" alt="" />
     <div>
-      <h5>Automation <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-    <p>Provide Faster and better Support for Your Custumer</p>
+      <h5 id="h5">Automation <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+    <p id="p">Provide Faster and better Support for Your Custumer</p>
       </div>
     `;
   let fdiv7 = document.createElement("div");
   fdiv7.innerHTML = `<img height="15px" width="15px" src="./assets/asset 9.svg" alt="" />
     <div>
-      <h5>Satisfaction Servey <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
-    <p>Provide Faster and better Support for Your Custumer</p>
+      <h5 id="h5">Satisfaction Servey <img id="arrow" height="10px" width="13px" src="https://cdn-icons-png.flaticon.com/512/2889/2889731.png" alt="" /></h5>
+    <p id="p">Provide Faster and better Support for Your Custumer</p>
       </div>
     `;
   let fbtn = document.createElement("button");
@@ -125,7 +124,7 @@ let Features = () => {
   parenttempdiv.append(tempdiv1, tempdiv2);
   features.append(titlediv,parenttempdiv)
 
-  integration.innerHTML = "<h3>INTEGRATION</h3>";
+  integration.innerHTML = "<h3 id='h3'>INTEGRATION</h3>";
 
   let ul = document.createElement("ul");
   let li1 = document.createElement("li");

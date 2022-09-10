@@ -1,0 +1,210 @@
+body{
+    background: url(https://assets.www.happyfox.com/v2/images/hdp_demo_bg.svg);
+    background-size: cover;
+    font-family: hero-new,sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    font: 100% Helvetica, sans-serif;
+}
+#parent{
+    padding: 50px 40px 20px 0;
+    display: block;
+}
+#parentdiv{
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 4px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+#leftsection{
+    color: #fff;
+    padding: 0 0 0 40px;
+    width: 40%;
+}
+#leftsection>img{
+    max-width: 166px;
+    width: 100%;
+    margin-bottom: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    border-style: none;
+}
+
+#leftsection>h1{
+    margin: 0 0 30px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.44;
+}
+
+ul {
+    margin: 0 0 40px;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    background: url(https://assets.www.happyfox.com/img/check-list-icon.svg) no-repeat left center;
+    
+}
+
+
+
+#rating{
+    background: rgb(0,0,0,.3);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 25px;
+    width: 80%;
+    display: flex;
+}
+#imgrating{
+    margin-right: 20px;
+}
+#rating-text{
+    max-width: 255px;
+    width: 100%;
+}
+#rating-text>p{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    margin-bottom: 7px;
+    color: #fff;
+}
+#star-image>img{
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+
+#rightsection{
+    width: 40%;
+    display: block;
+    
+}
+#rightmaindiv{
+    width: 100%;
+    position: relative;
+    padding: 45px 30px 48px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px 0 rgb(0 0 0 / 50%);
+    left: 0;
+    right: 0;
+    height: 680px;
+}
+#rightmaindiv>h2{
+    margin: 0 0 30px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+form{
+    display: block;
+    margin-top: 0em;
+}
+#group{
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#group>label{
+    margin-bottom: 5px;
+    display: block;
+    max-width: inherit;
+    width: 100%;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+#group>label>input {
+    width: 92%;
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #181c20!important;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 1px solid rgba(163,164,166,.4);
+    z-index: 1;
+    background: #fff;
+}
+#group>label>select {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #181c20!important;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 1px solid rgba(163,164,166,.4);
+    z-index: 1;
+    background: #fff;
+}
+#demobtn{
+    position: relative;
+}
+.btnd{
+    background: #ce2525;
+    margin: 0;
+    width: 100%;
+    margin-top: 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    padding: 13px 0;
+    font-weight: 700;
+    font-family: inherit;
+    height: auto;
+}
+#condition{
+    color: #333;
+    font-family: hero-new,sans-serif;
+    font-size: 13px;
+    opacity: .7;
+    font-weight: 300;
+    width: auto;
+    text-align: center;
+    margin-top: 18px
+}
+
+
+
+#condition>a{
+    color: #333;
+    font-family: hero-new,sans-serif;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    background-color: transparent;
+}
+
+footer{
+    width: 80%;
+    padding-left: 150px;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 70%;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
