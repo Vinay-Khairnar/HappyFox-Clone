@@ -78,8 +78,9 @@ let post = () => {
       "Content-type": "application/json",
     },
   });
-
-displaForm()
+ 
+  displaForm()
+  
 };
 
 document.getElementById("post").addEventListener("click", post);
