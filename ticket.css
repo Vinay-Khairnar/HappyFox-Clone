@@ -1,0 +1,25 @@
+#all-tickets>div{
+    
+}
+#combinediv{
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1px;
+}
+#combinediv select{
+    height: 30px;
+}
+#imgdiv{
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    /* width: 120px; */
+}
+#imgdiv img{
+    /* border: 1px solid #000; */
+    /* margin-top: 10px; */
+}

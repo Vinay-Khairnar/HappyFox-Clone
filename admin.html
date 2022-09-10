@@ -6,25 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
     <link rel="stylesheet" href="./admin.css" />
-    <link rel="stylesheet" href="../admin2.css">
+    <link rel="stylesheet" href="./admin2.css">
+    <link rel="stylesheet" href="./ticket.css">
   </head>
   <body>
     <nav>
       <div id="logo"></div>
-      <div><h2>Tickets</h2></div>
+      <div><h4>Tickets</h4></div>
       <div><input type="text" placeholder="Search Tickets and Contacts" /></div>
       <div>
-        <button style="color: #fff;" id="create">+New button</button>
+        <button style="color: #fff;" id="create">+</button>
       </div>
       <div>
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <select id="profile">
+       
+        <!-- <select id="profile">
           <option value="">Name</option>
-        </select>
+        </select> -->
       </div>
     </nav>
 
@@ -32,7 +29,7 @@
     <div id="container">
       <div id="sidebar">
         <div>
-        <h2>QUEUES <img style="background-color: white;" height="20px" width="20px" src="https://cdn-icons-png.flaticon.com/128/3524/3524636.png" alt=""></h2>
+        <h4>QUEUES </h4>
        <li>Pending Tickets</li>
        <li>All tickets</li>
        <li>Unresponded</li>
@@ -40,8 +37,8 @@
        <li>Immediate Response</li>
       </div>
 
-        <div>
-        <h2>STATUSES </h2>
+        <div id="all-status">
+        <h4>STATUSES </h4>
        <li>New</li>
        <li>Open</li>
        <li>In Progress</li>
@@ -56,20 +53,17 @@
       <div id="ticket-section">
 
         <div id="sort-bar">
-          <h1>All tickets</h1> 
+          <h2>All tickets</h2> 
         <select id="sort">
           <option value="none">Sort by</option>
           <option value="nto">Created - recent to oldest</option>
           <option value="otn">Created - oldest to recent</option>
-          <option value="ltc">Priority - Low to Critical</option>
-          <option value="ctl">Priority - Critical to Low</option>
+          <!-- <option value="ltc">Priority - Low to Critical</option>
+          <option value="ctl">Priority - Critical to Low</option> -->
         </select>
         
         <div id="page">
           
-          <button> ⇚</button>
-          <span>1</span>
-          <button> ⇛</button>
         </div>
       </div>
 
@@ -87,7 +81,7 @@
 
       
       <div id="ticket-form">
-        <div id="upper-bar">
+        <div id="upper-bar" class="flex_element">
           <div>
             <h1>New Ticket</h1>
             <a>Cutomise this form </a>
@@ -99,7 +93,7 @@
         </div>
         <div id="second-bar">
           <p>Look up existing contact</p>
-          <div>
+          <div class="flex_element">
             <label for="nem">Name or Email or Phone</label>
             <input type="text" id="nem" />
             <ul id="suggestion"> 
@@ -165,7 +159,7 @@
         </div>
   
         <div id="fourth-bar">
-          <ul>
+          <!-- <ul>
             <li>
               <input
                 type="text"
@@ -173,8 +167,20 @@
                 placeholder="Change fields will be highlighted below"
               />
             </li>
-          </ul>
+          </ul> -->
+          <p>
+            Ticket Template
+          </p>
+          <div class="flex_element">
+            <label for="">Choose a Template</label>
+            <input
+              type="text"
+              id="ticketTemplate"
+              placeholder="Change fields will be highlighted below"
+            />
+          </div>
         </div>
+        
   
         <div id="fifth-bar">
           <div>
