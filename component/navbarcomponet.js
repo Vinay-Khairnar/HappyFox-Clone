@@ -36,7 +36,7 @@ const navbarcomponet = () => {
 
     
     <div id="login">
-    <a href="#" >Log in</a>
+    <a href="./login.html" >Log in</a>
     </div>
     
     </div>  
