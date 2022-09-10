@@ -80,7 +80,7 @@ let post = () => {
   });
  
   displaForm()
- 
+  
 };
 
 document.getElementById("post").addEventListener("click", post);
