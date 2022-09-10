@@ -176,9 +176,3 @@
   height: 40px;
   width: 200px;
 }
-#priority-tag::first-letter{
-    /* font-size: 60px; */
-    display: none;
-    visibility: hidden;
-
-}
